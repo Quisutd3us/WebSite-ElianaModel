@@ -274,6 +274,7 @@ span {
             }
             section:nth-child(2) {
                 background: url(../img/imgAbout1.jpg) repeat fixed center;
+                background-size: contain;
             }
             section:nth-child(3) {
                 display: flex;
