@@ -222,7 +222,7 @@ span {
       align-items: center;
       background-color: #3E6E1D; }
     .wrapper main .creation section:nth-child(2) .imagen {
-      background: url(../img/imgAbout.jpg) repeat fixed center;
+      background: url(../img/imgAbout1.jpg) repeat fixed center;
       background-size: cover;
       height: 100vh; }
     .wrapper main .creation section:nth-child(3) {
