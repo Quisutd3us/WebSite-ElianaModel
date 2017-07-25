@@ -1,0 +1,275 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol,
+ul {
+  list-style: none; }
+
+blockquote,
+q {
+  quotes: none; }
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+body {
+  font-family: 'Dosis', sans-serif;
+  color: whitesmoke; }
+
+h2 {
+  font-weight: 400;
+  color: whitesmoke;
+  font-size: 4rem;
+  font-variant: small-caps; }
+
+h3 {
+  font-weight: 300;
+  color: whitesmoke;
+  font-size: 2rem;
+  margin: 1rem; }
+
+span {
+  font-weight: bold; }
+
+.menu div:first-child {
+  text-align: right;
+  padding: 0rem; }
+  .menu div:first-child h1 {
+    padding: 0rem 1rem;
+    font-family: 'Pacifico', Courier New, Courier, monospace;
+    color: #B9121B; }
+.menu .navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-end;
+  padding: 0rem 1rem;
+  margin: 0rem;
+  font-weight: bold;
+  font-size: 1.5rem;
+  background-color: whitesmoke; }
+  .menu .navbar a {
+    flex: 0 1 auto;
+    padding: 1rem;
+    color: #3c3c3c; }
+  .menu .navbar a:nth-child(1) {
+    border-bottom: solid 0.5rem #B9121B; }
+  .menu .navbar a:nth-child(2) {
+    border-bottom: solid 0.5rem #3E6E1D; }
+  .menu .navbar a:nth-child(3) {
+    border-bottom: solid 0.5rem #25064C; }
+  .menu .navbar a:nth-child(4) {
+    border-bottom: solid 0.5rem #702E17; }
+  .menu .navbar h1 {
+    flex: 1 1 auto;
+    text-align: right;
+    color: #3c3c3c;
+    margin-bottom: 2rem; }
+
+.wrapper {
+  width: 1024px;
+  margin: 0 auto;
+  text-align: left; }
+  .wrapper main .about {
+    display: flex;
+    flex-flow: row wrap;
+    height: 20rem;
+    justify-content: center;
+    align-items: stretch; }
+    .wrapper main .about section:nth-child(1) {
+      background: url(../img/imgAbout.jpg) repeat fixed center;
+      display: flex;
+      align-items: center; }
+    .wrapper main .about section:nth-child(2) {
+      background-color: #4C1B1B;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: flex-start; }
+    .wrapper main .about section:nth-child(3) {
+      background-color: #B9121B;
+      display: flex;
+      align-items: center; }
+  .wrapper main .creation {
+    display: flex;
+    flex-flow: row wrap;
+    height: 20rem;
+    justify-content: center; }
+    .wrapper main .creation h3 {
+      color: #3E6E1D; }
+    .wrapper main .creation section:nth-child(1) {
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+      background-color: #3E6E1D; }
+    .wrapper main .creation section:nth-child(2) {
+      background: url(../img/imgAbout1.jpg) repeat fixed center; }
+    .wrapper main .creation section:nth-child(3) {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: flex-end;
+      background-color: whitesmoke;
+      color: #3c3c3c;
+      text-align: right; }
+  .wrapper main .portfolio {
+    display: flex;
+    flex-flow: row wrap;
+    height: 20rem;
+    justify-content: center; }
+    .wrapper main .portfolio h3 {
+      color: #25064C; }
+    .wrapper main .portfolio section:nth-child(1) {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: flex-start;
+      background-color: whitesmoke; }
+      .wrapper main .portfolio section:nth-child(1) p {
+        color: #3c3c3c; }
+      .wrapper main .portfolio section:nth-child(1) a {
+        font-size: 1.5rem;
+        color: #25064C; }
+    .wrapper main .portfolio section:nth-child(2) {
+      display: flex;
+      align-items: center;
+      background-color: #25064C;
+      color: whitesmoke; }
+  .wrapper main .contact {
+    display: flex;
+    flex-flow: row wrap;
+    height: 20rem;
+    justify-content: center; }
+    .wrapper main .contact section:nth-child(1) {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: flex-start;
+      background-color: #702E17; }
+    .wrapper main .contact section:nth-child(2) {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: #481B15; }
+    .wrapper main .contact section:nth-child(3) {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: flex-end;
+      background-color: #702E17; }
+
+/*# sourceMappingURL=estilos.css.map */
